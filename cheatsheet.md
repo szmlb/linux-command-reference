@@ -74,3 +74,19 @@ A quick, readable reference for the most frequent and popular Linux commands.
 | `ros2 pkg` | Various package related sub-commands | `ros2 pkg create my_package` (create new pkg) |
 | `colcon build` | Build the workspace | `colcon build --symlink-install` |
 | `rosdep` | Install system dependencies | `rosdep install -i --from-path src --rosdistro humble -y` |
+
+## Docker & Containers
+
+| Command | Description | Common Usage Example |
+| :--- | :--- | :--- |
+| `docker run` | Create and run a new container from an image | `docker run -d -p 8080:80 nginx` |
+| `docker ps` | List containers | `docker ps -a` (list all, including stopped) |
+| `docker build` | Build an image from a Dockerfile | `docker build -t my-app:latest .` |
+| `docker images` | List local images | `docker images` |
+| `docker exec` | Run a command in a running container | `docker exec -it <container> bash` |
+| `docker logs` | Fetch the logs of a container | `docker logs -f <container>` (stream logs) |
+| `docker stop` / `start` | Stop or start a container | `docker stop <container>` |
+| `docker rm` | Remove one or more containers | `docker rm -f <container>` (force remove) |
+| `docker rmi` | Remove one or more images | `docker rmi <image>` |
+| `docker compose up` | Build, create, start, attach containers | `docker compose up -d` (detached mode) |
+| `docker compose down`| Stop and remove containers/networks | `docker compose down -v` (remove volumes too) |

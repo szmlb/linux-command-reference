@@ -12,6 +12,7 @@ Welcome to the Linux Command Reference! This repository provides a curated, read
   - [`system_info.md`](doc/system_info.md): System monitoring and resource usage (`top`, `ps`, `df`, `du`, etc.).
   - [`networking.md`](doc/networking.md): Networking commands (`curl`, `wget`, `ping`, `ip`, etc.).
   - [`ros2.md`](doc/ros2.md): Robot Operating System 2 commands (`ros2 run`, `ros2 topic`, `colcon build`, etc.).
+  - [`docker.md`](doc/docker.md): Docker and container management commands (`docker run`, `docker ps`, `docker-compose`, etc.).
 - **`scripts/`**: Example shell scripts demonstrating practical usage of various commands.
   - [`backup.sh`](scripts/backup.sh): An example script for backing up directories.
   - [`system_health.sh`](scripts/system_health.sh): An example script for checking system health (disk, memory).
