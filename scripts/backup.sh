@@ -21,6 +21,7 @@ if [ $? -eq 0 ]; then
     echo "Backup completed successfully!"
     echo "Backup file created at: $BACKUP_FILE"
 
+
     # Optional: print the size of the new backup file using du
     FILE_SIZE=$(du -sh "$BACKUP_FILE" | awk '{print $1}')
     echo "Backup size: $FILE_SIZE"
