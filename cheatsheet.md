@@ -60,3 +60,17 @@ A quick, readable reference for the most frequent and popular Linux commands.
 | `chmod` | Change file mode bits (permissions) | `chmod +x script.sh` (make executable) |
 | `chown` | Change file owner and group | `chown user:group file.txt` (change owner and group) |
 | `sudo` | Execute a command as another user (usually root) | `sudo apt update` (run with root privileges) |
+
+## ROS 2 (Robot Operating System)
+
+| Command | Description | Common Usage Example |
+| :--- | :--- | :--- |
+| `ros2 run` | Run an executable from a package | `ros2 run demo_nodes_cpp talker` |
+| `ros2 launch` | Run a launch file | `ros2 launch demo_nodes_cpp talker_listener.launch.py` |
+| `ros2 node` | Various node related sub-commands | `ros2 node list` (list running nodes) |
+| `ros2 topic` | Various topic related sub-commands | `ros2 topic echo /chatter` (print topic data) |
+| `ros2 service` | Various service related sub-commands | `ros2 service list` (list available services) |
+| `ros2 param` | Various param related sub-commands | `ros2 param list` (list parameters for nodes) |
+| `ros2 pkg` | Various package related sub-commands | `ros2 pkg create my_package` (create new pkg) |
+| `colcon build` | Build the workspace | `colcon build --symlink-install` |
+| `rosdep` | Install system dependencies | `rosdep install -i --from-path src --rosdistro humble -y` |
